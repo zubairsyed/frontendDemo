@@ -44,7 +44,27 @@
             </div>
         </div>
     </header>
+    <div id="side-bar">
+        <div id="child-sidebar">
+            <!-- <div id="bemblate"> -->
+                <label for="inp-chckbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></label>
+                <input type="checkbox" id="inp-chckbox" style="width: 20px;">
+            <!-- </div> -->
+            <ul>
+               <a href="#box1"> <li >task1 heading</li></a>
+               <a href="#box2"> <li >task2 heading</li></a>
+               <a href="#box3"> <li >task3 heading</li></a>
+               <a href="#box4"> <li >task4 heading</li></a>
+               <a href="#box5"> <li >task5 heading</li></a>
+               <a href="#box6"> <li >task6 heading</li></a>
+               <a href="#box7"> <li >task7 heading</li></a>
+               <a href="#box8"> <li >task8 heading</li></a>
+               <a href="#box9"> <li >task9 heading</li></a>
+            </ul>
+        </div>
+    </div>
     <main id="main">
+        
         <div id="container">
                 <div id="header-block" class="box-header header-tag">
                     Tasks to do!
@@ -55,12 +75,15 @@
                     <div id="box1" class="box">
                         <div class="heading-tag header-tag"> Task1 heading</div>
                         <div id="box1-para" class="paras">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.he industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
+                            Lorem Ipsum is simply dummy centuries, but also the leap into electronic typesetting, remaining essentially unchanged.he industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
+                        </div>
+                        <div id="arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
                         </div>
                     </div>
     
                     <div id="box2" class="box">
-                        <div class="heading-tag header-tag"> Task1 heading</div>
+                        <div class="heading-tag header-tag"> Task2 heading</div>
                             <hr id="hr1">
                                 <div id="box2-hr"> 
                                     <span id="svg-uparrow">
@@ -79,26 +102,142 @@
                                     <input type="text" placeholder="Enter heading" id="input-box2-task2" class="inputbox-task">
                                 </div>
                             </div>
+                            <div id="task2-3rd-parent">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M272 384c9.6-31.9 29.5-59.1 49.2-86.2l0 0c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4l0 0c19.8 27.1 39.7 54.4 49.2 86.2H272zM192 512c44.2 0 80-35.8 80-80V416H112v16c0 44.2 35.8 80 80 80zM112 176c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-61.9 50.1-112 112-112c8.8 0 16 7.2 16 16s-7.2 16-16 16c-44.2 0-80 35.8-80 80z"/></svg></span>
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64h96v80c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64z"/></svg></span>
+                                    <span>
+                                        <select name="select category" id="select-category" class="select-optn-class">
+                                            <option value="select">select category</option>
+                                            <option value="CSE">computers</option>
+                                            <option value="mech">mechanical</option>
+                                            <option value="civ">civil</option>
+                                        </select>
+                                    </span>
+                                    <span>
+                                        <select name="select process" id="select-category" class="select-optn-class">
+                                            <option value="select">select process</option>
+                                            <option value="eng">english</option>
+                                            <option value="britain">united kingdom</option>
+                                            <option value="hindi">Hindi</option>
+                                        </select>
+                                    </span>
+                            </div>
+
+                            <div id="task2-button">
+                                <button> + sub thread</button>
+                            </div>
+
+                            <div id="task2-2nd-parent">
+                                <div id="task2-box2" class="t2-class2">
+                                    <span>sub-heading 1</span>
+                                    <input type="text" placeholder="Enter heading" id="input-box1-task2" class="inputbox-task2">
+                                </div>
+                            </div>
+
+                            <div id="task2-section6">
+                                <div>
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></span>
+                                    <span>Threaded</span>
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M373.1 24.97C401.2-3.147 446.8-3.147 474.9 24.97L487 37.09C515.1 65.21 515.1 110.8 487 138.9L289.8 336.2C281.1 344.8 270.4 351.1 258.6 354.5L158.6 383.1C150.2 385.5 141.2 383.1 135 376.1C128.9 370.8 126.5 361.8 128.9 353.4L157.5 253.4C160.9 241.6 167.2 230.9 175.8 222.2L373.1 24.97zM440.1 58.91C431.6 49.54 416.4 49.54 407 58.91L377.9 88L424 134.1L453.1 104.1C462.5 95.6 462.5 80.4 453.1 71.03L440.1 58.91zM203.7 266.6L186.9 325.1L245.4 308.3C249.4 307.2 252.9 305.1 255.8 302.2L390.1 168L344 121.9L209.8 256.2C206.9 259.1 204.8 262.6 203.7 266.6zM200 64C213.3 64 224 74.75 224 88C224 101.3 213.3 112 200 112H88C65.91 112 48 129.9 48 152V424C48 446.1 65.91 464 88 464H360C382.1 464 400 446.1 400 424V312C400 298.7 410.7 288 424 288C437.3 288 448 298.7 448 312V424C448 472.6 408.6 512 360 512H88C39.4 512 0 472.6 0 424V152C0 103.4 39.4 64 88 64H200z"/></svg></span>
+                                </div>
+                                <div>
+                                    <select name="select category" id="select-category" class="select-optn-class">
+                                        <option value="select">select category</option>
+                                        <option value="CSE">computers</option>
+                                        <option value="mech">mechanical</option>
+                                        <option value="civ">civil</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div id="task2-button" style="justify-content:flex-end; padding-right:3rem; box-sizing: border-box;">
+                                <button> + sub thread</button>
+                            </div>
+
+                            <div id="task2-sectionfinal" >
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V173.3c0-17-6.7-33.3-18.7-45.3L352 50.7C340 38.7 323.7 32 306.7 32H64zm0 96c0-17.7 14.3-32 32-32H288c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V128zM224 416c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg>
+                            </div>
+
+                            <div id="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                            </div>
+
+
                     </div>
     
                     <div id="box3" class="box">
-                        <div class="heading-tag header-tag"> Task1 heading</div>
+                        <div class="heading-tag header-tag"> Task3 heading</div>
+                        <div id="task2-box2" class="t2-class2" style="padding: 5% 5%;">
+                            <input type="text" style=" border-radius: 10px; box-sizing: border-box;" placeholder="Enter heading" id="input-box1-task2" class="inputbox-task2">
+                        </div>
                     </div>
     
                     <div id="box4" class="box">
-                        <div class="heading-tag header-tag"> Task1 heading</div>
-                        <!-- <iframe src="">
-                        </iframe> -->
+                        <div class="heading-tag header-tag"> Task4 heading</div>
+                        <iframe src="https://drive.google.com/file/d/1Pxw83bTKE3KkOyYnwm1u6DSVjntSrNTp/preview">
+                        </iframe>
                     </div>
                     
                     <div id="box5" class="box">
-                        <div class="heading-tag header-tag"> Task1 heading</div>
+                        <div class="heading-tag header-tag"> Task5 heading</div>
+                        <div id="task2-2nd-parent">
+                            <div id="task2-box2" class="t2-class2">
+                                <span>sub-heading 1</span>
+                                <input type="text" placeholder="Enter heading" id="input-box1-task2" class="inputbox-task2">
+                            </div>
+                        </div>
+                        <div id="task2-2nd-parent" style="height: 30vw; min-height:400px;  flex-direction: column; justify-content:center; flex-wrap: wrap;">
+                            <div id="task2-box2" class="t2-class2">
+                                <span>sub-heading 1</span>
+                                <input type="text" placeholder="Enter heading" id="input-box1-task2" class="inputbox-task2">
+                            </div>
+                            <div id="task2-button" style="align-self: flex-start; box-sizing:border-box; padding-left: 3rem">
+                                <button> + sub thread</button>
+                            </div>
+                            <div id="task2-box2" class="t2-class2">
+                                <span>sub-heading 1</span>
+                                <input type="text" placeholder="Enter heading" id="input-box1-task2" class="inputbox-task2">
+                            </div>
+                            <div id="task2-button" style="align-self: flex-end; box-sizing:border-box; padding-right: 4rem"">
+                                <button> + sub thread</button>
+                            </div>
+                        </div>
+                        <div id="task2-2nd-parent">
+                            <div id="task2-box2" class="t2-class2">
+                                <span>sub-heading 1</span>
+                                <input type="text" placeholder="Enter heading" id="input-box1-task2" class="inputbox-task2">
+                            </div>
+                        </div>
+                        <div id="arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                        </div>
                     </div>
                     <div id="box6" class="box">
-                        <div class="heading-tag header-tag"> Task1 heading</div>
+                        <div class="heading-tag header-tag"> Task6 heading</div>
+                        <div id="audio-div">
+                            <iframe src="https://drive.google.com/file/d/1dBBYQsz2yt3vc4YMkRmVC3nuTBbq2GON/preview" frameborder="0"></iframe>
+                        </div>
+                        <div id="arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                        </div>
                     </div>
+
+                    
+
+
+
+                <div id="box7" class="box">
+                    <div class="heading-tag header-tag"> Task7 heading</div>
+                    <div id="video-div">
+                        <iframe src="https://www.youtube.com/embed/s8H0Sx7jy7c" frameborder="0"></iframe>
+                    </div>
+                    <div id="arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                    </div>
+                </div>
     
                 </div>
+
         </div>
     </main>
   </body>
