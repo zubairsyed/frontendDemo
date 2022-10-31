@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#body-header{
+    position: relative;
+    width: 100%;
+    background-color: cyan;
+}
+
+#header-container{
+    position: relative;
+    display: inline-block;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#header-icon{
+    padding-left: 1rem;
+}
+
+#header-right-section,#header-icon{
+    background-color: cyan;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-right-section{
+    padding-right: 1rem;
+}
+
+#header-right-section span{
+    padding-left: 0.7rem;
+}
+
+#nav-bar-img-div{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#nav-bar-img-div img{
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+}
+
+svg{
+    height: 17px;
+    width: 17px;
+}
+
+main{
+    position: relative;
+    border: 2px solid black;
+    width: 100%;
+    height: 86vh;
+    box-sizing: border-box;
+    padding: 0% 4%;
+    background-color: lightblue;
+}
+
+#container{
+    position: relative;
+    margin-top: 3rem;
+    border: 1px solid black;
+    width: 100%;
+    height: 76vh;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.header-tag{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 8px 8px 0 0;
+    height: 40px;
+    color: white;
+    box-sizing: border-box;
+}
+
+#child-div-space{
+    width: 100%;
+    height: 4rem;
+}
+
+#child-box-id{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 66vh;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#child-box-id::-webkit-scrollbar{
+    display: none;
+}
+
+#child-box-id .box{
+    position: relative;
+    height: 25vw;
+    width: 40vw;
+    box-sizing: border-box;
+    border-radius: 8px;
+    min-width: 250px;
+    min-height: 250px;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+    background-color: white;   
+}
+
+#container #box1{
+    position: relative;
+    text-align: center;
+    height: 15vw;
+    width: 40vw;
+    min-width: 150px;
+    min-height: 150px;
+}
+#box1-para{
+    height: 6.5vw;
+    text-align: justify;
+    padding: 5% 5%;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: justify;
+}
+
+#box1-para::-webkit-scrollbar{
+    display: none;
+}
+
+#box2-hr{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+}
+
+#box2-hr #svg-uparrow{
+    padding-left: 1em;
+}
+
+#hr1{
+    margin-top: .5rem;
+}
+
+/* task2 parent */
+
+#task2-2nd-parent{
+    margin-top: .5rem;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+    height: 7vw;
+    overflow: scroll;
+    overflow-x: hidden;
+    min-height: 150px;
+    min-width: 200px;
+    row-gap: 1rem;
+    /* border: 1px solid black; */
+}
+
+#task2-2nd-parent::-webkit-scrollbar{
+    display: none;
+}
+
+#task2-2nd-parent .task2-box-class{
+    width: 17vw;
+    height: 1vw;
+    min-height: 120px;
+    min-width: 200px;
+    background-color: lightblue;
+    /* box-sizing: border-box; */
+    border-radius: 1em;
+}
+
+.task2-box-class span{
+    padding-left: 1em;
+}
+
+.inputbox-task{
+    width: 95%;
+    margin-top: .5rem;
+    padding: 0.5rem 0 4.8rem 0.65rem;
+    height: inherit;
+    border: 1px solid #ccc;
+    border-radius: inherit;
+    resize: vertical;
+
+}
+
+.inputbox-task:focus{
+    outline: none;
+}
